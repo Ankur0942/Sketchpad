@@ -9,6 +9,8 @@ function createGrid(squaresPerSide) {
     for (let i = 0; i < totalSquares; i++) {
 
         const square = document.createElement('div');
+        square.style.boxSizing = "border-box";
+        square.style.border = "1px solid black"
 
         squareWidth = 960 / squaresPerSide;
         square.style.width = `${squareWidth}px`;
