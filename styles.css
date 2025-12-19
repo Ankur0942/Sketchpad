@@ -1,9 +1,21 @@
 #container{
-    margin: 0;
+    margin: 10px;
     width: 960px;
     height: 960px;
     border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
     /* row-gap: 0; */
+}
+
+button{
+    margin: 10px;
+    padding: 8px 16px;
+    color: white;
+    background-color: royalblue;
+    font-size: 18px;
+    /* Without width and height border-radius alone won't work */
+    width: auto;
+    height: auto;
+    border-radius: 8px; 
 }
