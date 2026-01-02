@@ -1,4 +1,5 @@
 const container = document.querySelector('#container');
+const clearButton = document.querySelector('.clear');
 
 //LOOP THROUGH USERINPUT
 function createGrid(squaresPerSide) {
@@ -28,7 +29,11 @@ function createGrid(squaresPerSide) {
 
             let randomColor = `rgb(${r}, ${g}, ${b})`;
             square.style.backgroundColor = randomColor;
-        })
+        });
+
+        clearButton.addEventListener('click', () => {
+            square.style.backgroundColor = "";
+        });
     }
 }
 
