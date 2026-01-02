@@ -21,3 +21,12 @@
         // Handle invalid input (for eg; >100 or <0)
         // Call createGrid() function based on the userInput 
  -->
+
+
+# My Solution's Strong Points
+
+## Grid Cleaning ✅
+## Efficient Loop ✅
+## Random Colors ✅
+## Logic Validation ✅
+## Recursive Validation ✅
